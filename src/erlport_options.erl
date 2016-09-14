@@ -50,7 +50,7 @@
     split_path/1
     ]).
 
--define(TIMEOUT, 15000).
+-define(TIMEOUT, 600000).
 
 -type option() :: nouse_stdio
     | use_stdio
